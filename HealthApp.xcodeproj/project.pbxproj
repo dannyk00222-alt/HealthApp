@@ -58,6 +58,36 @@
 			path = HealthAppUITests;
 			sourceTree = "<group>";
 		};
+		840CDF552EAEB276005D4F9D /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		840CDF562EAEB298005D4F9D /* DataStore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		840CDF592EAEB310005D4F9D /* Managers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		840CDF602EAEB3C3005D4F9D /* settings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = settings;
+			sourceTree = "<group>";
+		};
+		840CDF632EAEB3E7005D4F9D /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		840CDF722EAEB5ED005D4F9D /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +118,12 @@
 		840CDF182EAEAB0A005D4F9D = {
 			isa = PBXGroup;
 			children = (
+				840CDF722EAEB5ED005D4F9D /* Helpers */,
+				840CDF632EAEB3E7005D4F9D /* Views */,
+				840CDF602EAEB3C3005D4F9D /* settings */,
+				840CDF592EAEB310005D4F9D /* Managers */,
+				840CDF562EAEB298005D4F9D /* DataStore */,
+				840CDF552EAEB276005D4F9D /* Models */,
 				840CDF232EAEAB0A005D4F9D /* HealthApp */,
 				840CDF382EAEAB0B005D4F9D /* HealthAppTests */,
 				840CDF422EAEAB0B005D4F9D /* HealthAppUITests */,
@@ -122,6 +158,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				840CDF232EAEAB0A005D4F9D /* HealthApp */,
+				840CDF552EAEB276005D4F9D /* Models */,
+				840CDF562EAEB298005D4F9D /* DataStore */,
+				840CDF592EAEB310005D4F9D /* Managers */,
+				840CDF602EAEB3C3005D4F9D /* settings */,
+				840CDF632EAEB3E7005D4F9D /* Views */,
+				840CDF722EAEB5ED005D4F9D /* Helpers */,
 			);
 			name = HealthApp;
 			packageProductDependencies = (
@@ -287,8 +329,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthApp/HealthApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3CDR5MC9J;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -309,7 +354,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.HealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = danyilklymchuk.HealthApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -330,8 +375,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthApp/HealthApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3CDR5MC9J;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -352,7 +400,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.HealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = danyilklymchuk.HealthApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
