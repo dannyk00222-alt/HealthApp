@@ -61,5 +61,5 @@
 ## 👨‍💻 Автор / Author
 
 **Danyil Klymchuk**  
-📧 dannyk00222@gmail.com  
+📧 daniloklimchuk@gmail.com 
 🌐 [GitHub](https://github.com/dannyk00222-alt)
